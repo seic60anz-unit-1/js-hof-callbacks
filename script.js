@@ -57,3 +57,31 @@
 // it's just "hello"
 
 // Electric Mixer
+// 1 amidoingthisrite
+const electricMixer = function (attachment) {
+    console.log("This mixer is now: ____")
+    return attachment
+}
+electricMixer()
+
+// 2
+const spiraliser = () => {
+    return "spiralising"
+  }
+
+const dicer = () => {
+    return "dicing"
+  }
+  
+const grinder = () => {
+    return "grinding"
+}
+// 3 jks nope
+electricMixer(spiraliser)
+electricMixer(dicer)
+electricMixer(grinder)
+
+// Console should show:
+// "This mixer is now: spiralising"
+// "This mixer is now: dicing"
+// "This mixer is now: grinding meat"
